@@ -6,7 +6,7 @@ on:
       - 'main'
 jobs:
   build:
-    uses: 'udayach123/roboshop-github-actions/.github/workflows/ci-reuse.yml@main'
+    uses: udayach123/roboshop-github-actions/.github/workflows/ci-reuse.yml@main
 
 
 
