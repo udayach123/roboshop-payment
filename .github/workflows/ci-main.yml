@@ -5,8 +5,8 @@ on:
     branches:
       - 'main'
 jobs:
-  build:
-    uses: udayach123/roboshop-github-actions/.github/workflows/ci-reuse.yml@main
+  Reuse:
+    uses: udayach123/roboshop-github-actions/.github/workflows/ci-main.yml@main
 
 
 
