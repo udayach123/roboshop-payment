@@ -4,7 +4,7 @@ on:
     branches:
       - 'ROBO-**'
 jobs:
-  Build:
-    uses: udayach123/roboshop-github-actions/.github/workflows/ci-main.yml@main
+  Reuse:
+    uses: udayach123/roboshop-github-actions/.github/workflows/ci-dev.yml@main
 
 
