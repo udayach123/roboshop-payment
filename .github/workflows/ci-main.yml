@@ -1,13 +1,14 @@
-name: CICD - MAIN
+name: roboshop Main CICD
 on:
   workflow_dispatch:
   push:
     branches:
       - 'main'
 jobs:
-  Build:
-    uses: raghudevopsb84/roboshop-github-actions/.github/workflows/ci-main.yml@main
-    with:
-      appType: 'python'
+  Reuse:
+    uses: 'udayach123/roboshop-github-actions/.github/workflows/ci-reuse.yml@main'
+
+
+
 
 
