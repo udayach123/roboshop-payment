@@ -6,5 +6,7 @@ on:
 jobs:
   Reuse:
     uses: udayach123/roboshop-github-actions/.github/workflows/ci-dev.yml@main
+    with:
+      appType: 'nodeJs'
 
 

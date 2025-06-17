@@ -3,5 +3,6 @@ on: [pull_request]
 jobs:
   Reuse:
     uses: udayach123/roboshop-github-actions/.github/workflows/ci-pr.yml@main
-
+    with:
+      appType: 'nodeJs'
 
