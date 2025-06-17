@@ -5,8 +5,8 @@ on:
       - 'ROBO-**'
 jobs:
   Reuse:
-    uses: udayach123/roboshop-github-actions/.github/workflows/ci-dev.yml@main
+    uses: udayach123/roboshop-github-actions/.github/workflows/ci-main.yml@main
     with:
-      appType: 'nodeJs'
+      appType: 'python'
 
 
